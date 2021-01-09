@@ -29,10 +29,11 @@
 
 .tabs {
     height: 100%;
+    margin-right: 15px;
 }
 
 .nav_buttons {
-    margin-right: 15px;
+    margin-right: 5px;
 } 
 
 
@@ -44,9 +45,15 @@ a {
     vertical-align: middle;
     font-size: 16px;
     font-style: bold;
+    font-family: 'Montserrat';
+    transition: all 0.2s;
 }
 
 a:hover{
     color: white;
-    transition: all 0.2s;
+}
+
+.social_media {
+    align-content: center;
+    margin-right: 10px;
 }
