@@ -1,0 +1,125 @@
+body {
+    font-size: 19px;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+}
+
+#content div > :first-child {
+    padding-top: 40px;
+}
+
+.missionStatement {
+    text-align: center;
+}
+
+.missionStatement p {
+    margin: auto;
+    padding-top: 10px;
+    width: 80%;
+}
+
+#wis1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.womenInStem p {
+    margin: auto;
+    padding-top: 10px;
+    width: 80%;
+}
+
+.wisDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.wisDiv img {
+    width: 20vmax;
+    height: 15vmax;
+}
+
+#wisFirst {
+    padding-right: 50px;
+}
+
+.albionStreet p {
+    margin: auto;
+    width: 80%;
+}
+
+.albionPics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 480px;
+}
+
+#sub {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#sub img {
+    width: 311px;
+}
+
+#lastPic {
+    padding-top: 20px;
+}
+
+.albionPics img:not(#firstPic) {
+    height: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .wisDiv {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .wisDiv img {
+      height: 25vmax;
+      width: 40vmax;
+      padding-top: 10px;
+    }
+  
+    #wisFirst {
+      padding-right: 0px;
+    }
+
+    .albionStreet section {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .albionPics img {
+        height: 25vmax!important;
+        width: 40vmax!important;
+        padding-top: 10px;
+    }
+}
+
+.friendshipCircle p {
+    margin: auto;
+    padding-top: 10px;
+    width: 80%;
+}
+
+.friendshipCircle img {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
