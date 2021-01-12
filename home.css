@@ -1,0 +1,70 @@
+body {
+	font-size: 19px;
+}
+
+#content div > :first-child {
+	padding-top: 40px;
+}
+
+h1 {
+	text-align: center;
+}
+
+hr {
+	width: 90%;
+}
+
+#aboutDiv {
+	text-align: center;
+}
+
+#aboutP {
+	margin: auto;
+	width: 80%;
+	padding-top: 10px;
+	text-align: left;
+}
+
+#frc2020Div {
+	width: 80%;
+	list-style-type: none;
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
+#frc2020Div {
+	padding-top: 20px;
+}
+#teamHistory {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#teamImg {
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+.flex {
+	padding-left: 50px;
+	display: flex;
+}
+#frc2020P {
+	padding-left: 50px;
+	width: 50vw;
+	font-weight: normal;
+}
+#robot {
+	height: 350px;
+	width: 400px;
+}
+#first {
+	height: 300px;
+	width: 300px;
+}
+#team {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
