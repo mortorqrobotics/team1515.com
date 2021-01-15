@@ -66,11 +66,13 @@ html, body {
 	min-width: 842px;
 	background-color: white;
 }
+
 /* css for dropdown */
 .dropdown {
 	position: relative;
 	display: inline-block;
 }
+
 .dropdown-content {
 	display: none;
 	position: absolute;
