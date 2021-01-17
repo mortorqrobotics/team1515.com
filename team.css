@@ -1,0 +1,13 @@
+body {
+	font-size: 19px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p,
+h2,
+h3 {
+	text-align: center;
+}
+#content {
+	z-index: -52.5;
+}
