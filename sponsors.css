@@ -3,8 +3,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-#content div > :first-child {
-	padding-top: 40px;
+#content > :first-child {
+	padding-top: 20px;
 }
 
 h1 {
@@ -16,6 +16,7 @@ hr {
 }
 
 #whyDiv {
+	padding-top: 40px;
 	text-align: center;
 }
 
@@ -69,4 +70,39 @@ hr {
 	border-radius: 10px;
 	width: 200px;
 	height: 100px;
+}
+
+#outer {
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#outer img {
+	width: 40%;
+}
+
+section {
+	width: 40%;
+}
+
+@media only screen and (max-width: 900px) {
+	#outer img {
+		padding-top: 40px;
+		width: 80%;
+	}
+
+	#outer {
+		flex-direction: column;
+	}
+
+	section {
+		width: 80%;
+	}
+}
+
+hr {
+	margin-top: 20px;
+	width: 80%;
 }

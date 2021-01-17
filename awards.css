@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+#awards {
+    padding-top: 20px;
+}
+
+hr {
+    width: 90%;
+}
+
+#award {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#award > :first-child {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#award p {
+    width: 60%;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+#content img {
+    display: block;
+    margin: 50px auto;
+}
