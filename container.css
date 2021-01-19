@@ -13,7 +13,7 @@ body {
 }
 
 .tab {
-	padding-left: 5vw;
+	padding-left: 3vw;
 }
 
 .nav a {
@@ -23,7 +23,7 @@ body {
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 	transition: all 0.2s;
-	padding-left: 20px;
+	margin-left: 20px;
 }
 
 .tab a:hover {
