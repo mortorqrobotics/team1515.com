@@ -10,3 +10,7 @@ p, h2, h3 {
 #content {
 	z-index: -52.5;
 }
+
+.bx-prev, .bx-next {
+	z-index: 0!important;
+}
