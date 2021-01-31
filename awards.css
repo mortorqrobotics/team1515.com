@@ -1,3 +1,7 @@
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
 h1 {
     text-align: center;
     font-size: 2.2em;
@@ -17,9 +21,10 @@ hr {
 }
 
 #award > :first-child {
-    margin-top: 20px;
+    margin: 20px auto;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    width: 85%;    
 }
 
 #award p {

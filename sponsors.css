@@ -58,20 +58,6 @@ hr {
 	text-align: left;
 }
 
-#donate button {
-	background-color: #ff9100;
-	-webkit-box-shadow: 2px 6px 5px 0px rgba(94, 89, 94, 0.68);
-	-moz-box-shadow: 2px 6px 5px 0px rgba(94, 89, 94, 0.68);
-	box-shadow: 2px 6px 5px 0px rgba(94, 89, 94, 0.68);
-	margin-top: 80px;
-	font-size: 1.25em;
-	color: white;
-	border: none;
-	border-radius: 10px;
-	width: 200px;
-	height: 100px;
-}
-
 #outer {
 	padding-top: 15px;
 	display: flex;
@@ -105,4 +91,18 @@ section {
 hr {
 	margin-top: 20px;
 	width: 80%;
+}
+
+#donate button {
+	background-color: #ff9100;
+	-webkit-box-shadow: 2px 6px 5px 0px rgba(94, 89, 94, 0.68);
+	-moz-box-shadow: 2px 6px 5px 0px rgba(94, 89, 94, 0.68);
+	box-shadow: 2px 6px 5px 0px rgba(94, 89, 94, 0.68);
+	margin-top: 80px;
+	font-size: 1.25em;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	width: 200px;
+	height: 100px;
 }

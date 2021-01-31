@@ -89,3 +89,15 @@ html, body {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
+.continue {
+	display: block;
+	background-color: #ff9100;
+	font-size: 1.35em;
+	border: none;
+	margin: 80px auto;
+	margin-bottom: -50px;
+	border-radius: 10px;
+	width: 200px;
+	height: 100px;
+}
