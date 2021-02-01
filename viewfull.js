@@ -21,6 +21,6 @@ let texts = {
     },
     "wis": {
         "title": "Women in Stem",
-        "content": `As a high-school robotics team we bring STEM to our communities and enable students to grow by hosting events such as the Women in STEM Speaker Series, where female professionals talk about their successes and challenges. The event is normally hosted at our district middle school to maximize participation. The pandemic closing our school has not stopped us. Instead, we hosted a Women in STEM event via Zoom (<a href="https://www.youtube.com/watch?v=NtGfkWQAIGY">https://www.youtube.com/watch?v=NtGfkWQAIGY</a>) which was posted on our school's media class's YouTube channel. We recently hosted our second virtual Women in STEM event and are currently planning our next one.`
+        "content": `As a high-school robotics team we bring STEM to our communities and enable students to grow by hosting events such as the Women in STEM Speaker Series, where female professionals talk about their successes and challenges. The event is normally hosted at our district middle school to maximize participation. The pandemic closing our school has not stopped us. Instead, <a href="https://www.youtube.com/watch?v=NtGfkWQAIGY">we hosted a Women in STEM event via Zoom</a> which was posted on our school's media class's YouTube channel. We recently hosted our second virtual Women in STEM event and are currently planning our next one.`
     }
 }
