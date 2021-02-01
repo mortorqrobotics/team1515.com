@@ -1,0 +1,26 @@
+function togglePopup(section){
+    document.getElementById("popup-1").classList.toggle("active");
+    document.body.classList.toggle('noscroll')
+    if(!section) return;
+    document.querySelector('.popup .content h1').innerHTML = texts[section].title;
+    document.querySelector('.popup .content p').innerHTML = texts[section].content;
+}
+
+let texts = {
+    "about": {
+        "title": "About FIRST",
+        "content": `For Inspiration and Recognition of Science Technology, otherwise known as FIRST, is a non-profit organization that was started in 1989 in Manchester, New Hampshire, by Dean Kamen. Kamen is an entrepreneur who is also widely known for his creation of the Segway, and is now the CEO of the FIRST nonprofit organization. There are multiple sections of FIRST, such as FIRST Robotics competition, LEGO League Challenge, LEGO League Explore, LEGO League Discover, and FIRST Tech Challenge. These competitions are held all over the world, where there are thousands of teams with more than 600,000 students and 320,000 mentors from 110 different countries. The goal of the program, as expressed by FIRST, is to inspire students to be science and technology leaders. Every year, there is a new challenge presented to the teams, and the teams have to adapt/create a robot that could complete these challenges. When teams win certain awards at the First Robotics Competition, they are eligible to go to the World Competition. The most prestigious teams are able to attend this competition which is usually late in the school year. Lastly, the mission and vision of FIRST "is to inspire young people to be science and technology leaders and innovators, by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership."`
+    },
+    "inf": {
+        "title": "Infinite Recharge",
+        "content": "Our 2020 robot had a revolver type magazine, a feature that allowed us to carry five balls at a time. The robot could intake balls, place them into the magazine, and then used a solenoid to direct the ball into the two wheel shooter. It also had a climber mechanism that utilized a hook. The swerve drivetrain allowed us to move rapidly and avoid obstacles on the field. The Infinite Recharge game involves two alliances of three teams each, with each team controlling a robot and performing specific tasks on a field to score points. The game centers around a futuristic city theme. The two alliances compete to perform various tasks, including shooting foam balls known as Power Cells into high and low goals to activate a Shield Generator, manipulating a Control Panel to activate this shield, and returning to the Shield Generator to park or climb at the end of the match. The objective is to energize and activate the shield before the match ends and asteroids strike FIRST City."
+    },
+    "team": {
+        "title": "Team History",
+        "content": "Our team competes in the FIRST robotics competition as Team 1515. Team 1515 was founded in the fall of 2004 under the leadership of Former Principal of Beverly Hills High School Dr. Dan Stepenosky, member of the School Board Dr. Myra Demeter, Beverly Hills High School Chemistry Teacher Charles Lee, and parent Eileen Kahn. Under their leadership, Team 1515 grew to become a well-known team. Our team continued to flourish with the help of parent Eileen Kahn, who became a credentialed teacher to keep the program in existence. Thanks to the strong leadership of business mentor Alex O'Dorisio and the dedication of our teacher, John Castle, our team is moving full S.T.E.A.M ahead. With new student leadership, more efficient subdivisions, and fresh thinking, MorTorq is reaching for the stars. In two years, our team has grown from 48 students to 65 (2018 - 2020). Prior to our recruitment period, we already have 70 students enrolled and we’re excited to welcome even more students. In 2019, we had the honor to be awarded the prestigious Chairman's Award and traveled to the FRC International Competition with our registration fee sponsored by NASA. The 2020-2021 FIRST season will be our team’s seventeenth year competing."
+    },
+    "wis": {
+        "title": "Women in Stem",
+        "content": `As a high-school robotics team we bring STEM to our communities and enable students to grow by hosting events such as the Women in STEM Speaker Series, where female professionals talk about their successes and challenges. The event is normally hosted at our district middle school to maximize participation. The pandemic closing our school has not stopped us. Instead, we hosted a Women in STEM event via Zoom (<a href="https://www.youtube.com/watch?v=NtGfkWQAIGY">https://www.youtube.com/watch?v=NtGfkWQAIGY</a>) which was posted on our school's media class's YouTube channel. We recently hosted our second virtual Women in STEM event and are currently planning our next one.`
+    }
+}

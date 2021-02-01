@@ -33,9 +33,6 @@ hr {
 	margin-left: 70px;
 }
 
-#frc2020Div {
-	padding-top: 20px;
-}
 #teamHistory {
 	margin-left: 5%;
 	margin-right: 5%;
@@ -49,6 +46,7 @@ hr {
 .flex {
 	padding-left: 50px;
 	display: flex;
+	align-items: center;
 }
 #frc2020P {
 	padding-left: 50px;
@@ -68,4 +66,14 @@ hr {
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 3%;
+}
+
+.missionStatement {
+    text-align: center;
+}
+
+.missionStatement p {
+    margin: auto;
+    padding-top: 10px;
+    width: 80%;
 }
