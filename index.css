@@ -75,5 +75,7 @@ hr {
 .missionStatement p {
     margin: auto;
     padding-top: 10px;
-    width: 80%;
+	width: 80%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
 }
