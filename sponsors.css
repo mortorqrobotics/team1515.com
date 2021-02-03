@@ -106,3 +106,7 @@ hr {
 	width: 200px;
 	height: 100px;
 }
+
+#donate button:hover {
+	background-color: #db7e02;
+}
