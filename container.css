@@ -48,13 +48,13 @@ html, body {
 	z-index: 2;
 }
 
-#navbar {
+.navbar {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	margin: 0 auto;
 	min-width: 842px;
-	width: 54vw;
+	width: 54.2vw;
 }
 
 #content {
@@ -92,7 +92,6 @@ html, body {
 
 .continue {
 	display: block;
-	cursor: pointer;
 	background-color: #ff9100;
 	font-size: 1.35em;
 	border: none;
@@ -105,4 +104,87 @@ html, body {
 
 .continue:hover {
 	background-color: #db7e02;
+}
+
+#mobileNav {
+  display: none;
+}
+
+.container {
+  cursor: pointer;
+  margin-right: 30px;
+  margin-left: auto;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fefaff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 99px;
+  left: 1000px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FF5F00;
+  transition:left 1s;
+}
+
+.boxOn {
+  left: 0!important;
+}
+
+.dropContent {
+  margin-left: 50px;
+}
+
+.dropContent a {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+	#mobileNav {
+    display: flex;
+  }
+
+  #pcNav {
+    display: none;
+  }
+
+  #box a {
+    font-size: 2em;
+    color: black;
+  }
+
+  #box > :first-child {
+    margin-top: 40px;
+  }
+
+  #box > *:not(:first-child) {
+    margin-top: 60px;
+  }
+
+  #box img {
+    width: 75px;
+    height: 75px;
+  }
 }
