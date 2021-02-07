@@ -92,6 +92,7 @@ html, body {
 
 .continue {
 	display: block;
+	cursor: pointer;
 	background-color: #ff9100;
 	font-size: 1.35em;
 	border: none;

@@ -95,6 +95,7 @@ hr {
 
 #donate button {
 	background-color: #ff9100;
+	cursor: pointer;
 	-webkit-box-shadow: 2px 6px 5px 0px rgba(94, 89, 94, 0.68);
 	-moz-box-shadow: 2px 6px 5px 0px rgba(94, 89, 94, 0.68);
 	box-shadow: 2px 6px 5px 0px rgba(94, 89, 94, 0.68);
