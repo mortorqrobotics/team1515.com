@@ -64,7 +64,7 @@ hr {
     align-items: center;
     justify-content: center;
     padding-top: 10px;
-    height: 480px;
+    height: 70vh;
 }
 
 #sub {
@@ -73,8 +73,8 @@ hr {
     padding-left: 20px;
 }
 
-#sub img {
-    width: 311px;
+#firstPic {
+    width: 50%;
 }
 
 #lastPic {
@@ -82,7 +82,7 @@ hr {
 }
 
 .albionPics img:not(#firstPic) {
-    height: 50%;
+    height: 30vh;
 }
 
 @media only screen and (max-width: 900px) {
@@ -108,7 +108,6 @@ hr {
     }
 
     .albionPics img {
-        height: 25vmax!important;
         width: 40vmax!important;
         padding-top: 10px;
     }

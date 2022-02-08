@@ -26,7 +26,7 @@ hr {
 	text-align: left;
 }
 
-#frc2020Div {
+.frcDiv {
 	width: 80%;
 	list-style-type: none;
 	margin-top: 40px;
@@ -43,20 +43,25 @@ hr {
 	margin: auto;
 	width: 80%;
 }
+
 .flex {
-	padding-left: 50px;
+	padding-left: 10px;
 	display: flex;
 	align-items: center;
+	text-align: center;
 }
+
 #frc2020P {
 	padding-left: 50px;
-	width: 50vw;
+	width: 80vw;
 	font-weight: normal;
 }
+
 #robot {
 	height: 350px;
 	width: 400px;
 }
+
 #first {
 	height: 300px;
 	width: 300px;
