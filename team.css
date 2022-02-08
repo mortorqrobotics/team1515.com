@@ -14,3 +14,7 @@ p, h2, h3 {
 .bx-prev, .bx-next {
 	z-index: 0!important;
 }
+
+.ethanPic {
+	width: 100%;
+}
