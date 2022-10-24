@@ -1,120 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=842">
-    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=842" />
+    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
     <script src="team.js" defer></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="container.css">
-    <link rel="stylesheet" href="team.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="container.css" />
+    <link rel="stylesheet" href="team.css" />
     <script src="nav.js" defer></script>
     <title>Team1515 team</title>
-</head>
+  </head>
 
-<body>
-    <script>$(document).ready(function () { $('.slider').bxSlider(); });</script>
+  <body>
+    <script>
+      $(document).ready(function () {
+        $(".slider").bxSlider();
+      });
+    </script>
     <div class="nav">
-        <div class="nav navbar" id="pcNav">
-            <img id="team_logo" src="Assets/team1515logoinverse.png" />
-            <div class="tab">
-                <a href="index.html">HOME</a>
-                <div class="dropdown">
-                    <a class="dropdownTitle">ABOUT&#8595;</a>
-                    <div class="dropdown-content">
-                        <a href="outreach.html">OUTREACH</a>
-                        <br>
-                        <a href="team.html" style="color:white;">TEAM</a>
-                        <br>
-                        <a href="awards.html">AWARDS</a>
-                    </div>
-                </div>
-                <a href="sponsors.html">SPONSORS</a>
-                <a href="https://www.bhef.org/apps/form/bhhsrobotics">DONATE</a>
+      <div class="nav navbar" id="pcNav">
+        <img id="team_logo" src="Assets/team1515logoinverse.png" />
+        <div class="tab">
+          <a href="index.html">HOME</a>
+          <div class="dropdown">
+            <a class="dropdownTitle">ABOUT&#8595;</a>
+            <div class="dropdown-content">
+              <a href="outreach.html">OUTREACH</a>
+              <br />
+              <a href="team.html" style="color: white">TEAM</a>
+              <br />
+              <a href="awards.html">AWARDS</a>
             </div>
-            <div class="socials">
-                <a href="https://www.facebook.com/frc1515/" id="firstSocial">
-                    <img src="Assets/facebookLogo 1.png" alt="FB logo">
-                </a>
-                <a href="https://www.instagram.com/frc1515/?hl=en">
-                    <img src="Assets/instagramLogo 1.png" alt="FB logo">
-                </a>
-                <a href="https://twitter.com/frc1515?lang=en">
-                    <img src="Assets/twitterLogo 1.png" alt="FB logo">
-                </a>
-            </div>
+          </div>
+          <a href="sponsors.html">SPONSORS</a>
+          <a href="https://www.bhef.org/apps/form/bhhsrobotics">DONATE</a>
         </div>
-        <div class="nav navbar" id="mobileNav">
-            <img id="team_logo" src="Assets/team1515logoinverse.png"/>
-            <div class="container" onclick="togglePop(this)">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
+        <div class="socials">
+          <a href="https://www.facebook.com/frc1515/" id="firstSocial">
+            <img src="Assets/facebookLogo 1.png" alt="FB logo" />
+          </a>
+          <a href="https://www.instagram.com/frc1515/?hl=en">
+            <img src="Assets/instagramLogo 1.png" alt="FB logo" />
+          </a>
+          <a href="https://twitter.com/frc1515?lang=en">
+            <img src="Assets/twitterLogo 1.png" alt="FB logo" />
+          </a>
+        </div>
+      </div>
+      <div class="nav navbar" id="mobileNav">
+        <img id="team_logo" src="Assets/team1515logoinverse.png" />
+        <div class="container" onclick="togglePop(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div id="box">
+          <a href="index.html">HOME</a>
+          <div class="dropdown">
+            <a class="dropdownTitle">ABOUT&#8595;</a>
+            <div class="dropContent">
+              <a href="outreach.html">OUTREACH</a>
+              <br />
+              <a href="team.html">TEAM</a>
+              <br />
+              <a href="awards.html">AWARDS</a>
             </div>
-            <div id="box">
-              <a href="index.html">HOME</a>
-              <div class="dropdown">
-                  <a class="dropdownTitle">ABOUT&#8595;</a>
-                  <div class="dropContent">
-                      <a href="outreach.html">OUTREACH</a>
-                      <br>
-                      <a href="team.html">TEAM</a>
-                      <br>
-                      <a href="awards.html">AWARDS</a>
-                  </div>
-              </div>
-              <a href="sponsors.html">SPONSORS</a>
-              <a href="https://www.bhef.org/apps/form/bhhsrobotics">DONATE</a>
-              <div class="socials">
-                <a href="https://www.facebook.com/frc1515/">
-                    <img src="Assets/facebookLogo 1.png" alt="FB logo">
-                </a>
-                <a href="https://www.instagram.com/frc1515/?hl=en">
-                    <img src="Assets/instagramLogo 1.png" alt="FB logo">
-                </a>
-                <a href="https://twitter.com/frc1515?lang=en">
-                    <img src="Assets/twitterLogo 1.png" alt="FB logo">
-                </a>
-              </div>
+          </div>
+          <a href="sponsors.html">SPONSORS</a>
+          <a href="https://www.bhef.org/apps/form/bhhsrobotics">DONATE</a>
+          <div class="socials">
+            <a href="https://www.facebook.com/frc1515/">
+              <img src="Assets/facebookLogo 1.png" alt="FB logo" />
+            </a>
+            <a href="https://www.instagram.com/frc1515/?hl=en">
+              <img src="Assets/instagramLogo 1.png" alt="FB logo" />
+            </a>
+            <a href="https://twitter.com/frc1515?lang=en">
+              <img src="Assets/twitterLogo 1.png" alt="FB logo" />
+            </a>
           </div>
         </div>
+      </div>
     </div>
     <div id="content">
-        <script>$(document).ready(function () { $('.slider').bxSlider(); });</script>
-        <div id="build">
-            <h1>BUILD TEAM</h1>
-            <ul class="bxslider">
-                <li><img src="Assets/Leaders/castle.jpg"><h2>John R. Castle II</h2><h3>Robotics Teacher</h2><p>I have been with the team for 4 years.  I am the guy who ensures we function like a well running machine.</p></li>
-                <li><img src="Assets/Leaders/will.png" style="margin: auto; width: 100%;"><h2>Will Ferenc</h2><h3>Head Mentor</h2><p>Will has been involved as a mentor/volunteer with FRC since 2009 and with 1515 since 2017. He believes that FRC is the best way for high school students to gain practical engineering experience. Will is best known for his work in the aerospace industry, including development of Life Support Sensors and high performance Optical Modems. In the off-season he runs a small contract engineering and product design firm. Will holds a BS in Engineering from Harvey Mudd College and maintains a California PE.</p></li>
-                <li><img src="Assets/Leaders/kyle.png" style="margin: auto; width: 100%;"><h2>Kyle Mozdzyn</h2><h3>Field Applications Engineer</h2><p>I initially got involved with FRC during the 2012 season as an official NI support resource and control systems advisor for Rebound Rumble. 2 years ago, I got the opportunity to work with 1515 and it reignited my passion for FRC, teaching, and building cool stuff. During build season I typically focus on prototyping and fabrication due to many years designing and building racecars, but also can help out with control systems and data collection. I think FRC is one of the premier learning experiences available at the high school level because it teaches an incredible number of technical, nontechnical, and life skills in a fun, passionate, team based environment. Love the privilege of working with 1515!</p></li>
-                <li><img src="Assets/Leaders/ellacox.jpg"><h2>Ella Cox</h2><h3>President</h3><p>I have been a member of the team and pit crew for 4 years. Before becoming president, I was the build specialist and safety captain. I am so proud to lead such as great team of amazing people and I hope to continue to encourage more girls to join FRC.</p></li>
-                <li><img src="Assets/Leaders/ramer.jpeg"><h2>Eli Ramer</h2><h3>Vice president/District Liaison/Machine Specialist</h3><p>My name is Eli Ramer, a current junior and member of this robotics team since freshman year. This team has given me so much whether it be great experiences or friends to last a lifetime. I am honored and humbled to be able to serve as a leader this year. As Machine Specialist I ensure that our shop runs smoothly and all new students are aware of all the necessary information when using shop machines and machining overall. As District Liaison I am currently working on establishing robotics teams at all schools in our district so that we can have clear pathways all the way from Kindergarten to High School. I am looking forward to doing my best this year and go MorTorq!</p></li>
-                <li><img class="ethanPic" src="Assets/Leaders/ethanstone.jpg"><h2>Ethan Stone</h2><h3>Electrical Specialist</h3><p>I am the programming specialist of robotics. I am a Junior and have been on the team for 3 years now. I help code the robot for competition and teach future team programmers. Robotics has greatly increased my skill as a programmer and taught me what working in a team feels like. I enjoy meeting new kinds of people and teams during competition.</p></li>
-                <li><img src="Assets/Leaders/chang.png"><h2>Brian Chang</h2><h3>CAD Specialist</h3><p>This is my second year in Team 1515 and I am the CAD Specialist. As CAD Specialist, I teach the first-year students how to use CAD on the Solidworks program. As a result of FRC, I have developed skills in engineering, learned how to use power tools, and developed leadership skills. </p></li>
-            </ul>
-        </div>
-        <div id="programming">
-            <h1>PROGRAMMING TEAM</h1>
-            <ul class="bxslider">
-                <!-- William -->
-                <!-- Andy -->
-                <li><img src="Assets/Leaders/cameron.jpg"><h2>Cameron Asher</h2><h3>Head of programming/Web specialist</h2><p>This is my third year on the robotics team. I'm currently the head of programming, the advanced programmer teacher, and the head of web development. I've loved programming for a while and being on an FRC team with MorTorq has taught me so many practical and real-world skills. I hope to keep on learning about programming and engineering through MorTorq and FRC.</p></li>
-                <li><img src="Assets/Leaders/andrew.jpg"><h2>Andrew Galen</h2><h3>Programming Specialist</h2><p>I am the programming specialist of robotics. I am a Junior and have been on the team for 3 years now. I help code the robot for competition and teach future team programmers. Robotics has greatly increased my skill as a programmer and taught me what working in a team feels like. I enjoy meeting new kinds of people and teams during competition.</p></li>
-            </ul>
-        </div>
-         <div id = "buisness">
-            <h1>BUSINESS TEAM</h1>
-            <ul class="bxslider">
-                <li><img src="Assets/Leaders/alexo.JPG"><h2>Alex O'Dorisio</h2><h3>Teacher/Financial Consultant</h2><p>This is my third year with Team 1515, and I absolutely love helping push our inspiring students further into the world of business development. My role is to encourage students and mold their innovative minds. This is done through introducing real world business tactics & concepts that enable participants to go forward and initiate the transition of business ideas, into successful businesses. FRC has been influential by allowing me a degree of insight into the real world impact these young participants can enact today. The services and ideas discussed by students are not just inspiring and/or interesting, they are life impacting, world changing concepts and technology. Knowledge is power and the dissemination of knowledge has never, throughout history, been proliferated to such an extent as we see today. FRC is that platform that highlights this realization. </p></li>
-                <li><img src="Assets/Leaders/sarah.jpg"><h2>Sarah Lepkowitz</h2><h3>CEO of Buisness</h3><p>This is my fourth year on MorTorq. As a freshman, I was in Engineering and have been on Business since. I am so happy I have had the opportunity to be on this team! It has truly changed my life and made me realize that I am interested in studying both STEM and Business. The hands-on experience I have gained by being in this class is unique and priceless. As President of Business, I have learned so much about teamwork, synergy, and the satisfaction of a job well done together. I look forward to the rest of the year and next year on this team! Go MorTorq!</p></li>
-                <li><img src="Assets/Leaders/kevin.jpg"><h2>Kevin Manavi</h2><h3>Chief of Communications</h3><p>I've been on MorTorq for four years. Currently I am the chief of communications. FRC has made me more confident in my ability to work with a team. I've learned so much about public speaking and leadership from my time at competitions and made so many friendships.</p></li>
-            </ul>
-        </div>
+      <script>
+        $(document).ready(function () {
+          $(".slider").bxSlider();
+        });
+      </script>
+      <div id="build">
+        <h1>LEADERSHIP TEAM</h1>
+        <ul class="bxslider">
+          <li>
+            <img src="Assets/Leaders/castle.png" />
+            <h2>John R. Castle II</h2>
+            <h3>Robotics Teacher</h3>
+            <p>
+              I have been with the team for 5 years. I am the guy who ensures we
+              function like a well running machine.
+            </p>
+          </li>
+          <li>
+            <img src="Assets/Leaders/andrew.jpg" />
+            <h2>Andrew Galen</h2>
+            <h3>President</h3>
+            <p>
+              I am currently a Senior and am on my fourth year on the robotics
+              team. For the past couple years I have been a programming
+              specialist developing code for the robot and teaching new
+              students. I now am the President of the team, where I help lead
+              multiple divisions and set a model for newer members. I enjoy
+              working with such an amazing group of students and cannot wait to
+              have an another great year with Mortorq.
+            </p>
+          </li>
+          <li>
+            <img src="Assets/Leaders/cameron.jpg" />
+            <h2>Cameron Asher</h2>
+            <h3>Vice President</h3>
+            <p>
+              This is my fourth year on the robotics team. I'm currently the
+              vice president, head of programming, and the head of web
+              development. I've loved programming for a while and being on
+              Mortorq has taught me many practical and real-world skills so I'm
+              very grateful for FRC and Mortorq. I really enjoy leading the
+              amazing students on our team and hope to help make this team the
+              best it can.
+            </p>
+          </li>
+          <li>
+            <img src="Assets/Leaders/chazz.JPG" />
+            <h2>Chazz Rugiero</h2>
+            <h3>Build Specialist</h3>
+            <p>
+              This is my 4th year on MorTorq and in FRC, and I am a senior.
+              Previously, I was head pit tech. As build leader I ensure that all
+              mechanical aspects of the robot are in check, and that all build
+              sub-teams are working in cohesion. This team is like my second
+              family, and I am so grateful to be able to work alongside them. My
+              favorite parts of FRC are the people involved and their robots.
+              The diversity involved in both the people competing and their
+              design choices is beautiful. &lt;3
+            </p>
+          </li>
+          <li>
+            <img src="Assets/Leaders/odelia.JPG" />
+            <h2>Odelia Shofet</h2>
+            <h3>Machine Specialist</h3>
+            <p>
+              I am a current junior and have been on this team for the past
+              three years. As machine specialist, I oversee the woodshop and
+              teach new members about the machinery. From freshman year, I have
+              loved everything mechanical and machinery, Being on MorTorq, I
+              have learned a variety of skills, from using SolidWorks to leading
+              a group of students. I look forward to the rest of the year and
+              next year on this team! Go MorTorq!
+            </p>
+          </li>
+          <li>
+            <img src="Assets/Leaders/kaylen.JPG" />
+            <h2>Kaylen Wi</h2>
+            <h3>Electrical Specialist</h3>
+            <p>
+              This is my third year on the team. As electrical specialist, I
+              wire the robot to ensure Build can run the different components
+              they built with the code Programming wrote. Electrical piqued my
+              interest freshman year and since then I worked very hard to
+              increase my knowledge. Mortorq has given me many opportunities
+              from learning how to use power tools to developing my engineering
+              and leadership skills. I have met so many amazing people through
+              this program and hope to encourage more girls to join FIRST.
+            </p>
+          </li>
+          <li>
+            <img src="Assets/Leaders/rachel.JPG" />
+            <h2>Rachel Cohen</h2>
+            <h3>CAD Specialist</h3>
+            <p>
+              This is my third year with Team 1515. As CAD Specialist, I teach
+              students about Computer Aided Design (CAD) and help them develop
+              their skills on the Solidworks program. Thanks to the Robotics
+              Program, I have developed skills in engineering, machinery,
+              design, and leadership. I hope to continue teaching and
+              encouraging more females, as well as many of those in the Arts
+              departments, to join Robotics.
+            </p>
+          </li>
+          <li>
+            <img src="Assets/Leaders/ariella.JPG" />
+            <h2>Arielle Efron</h2>
+            <h3>Safety Captain</h3>
+            <p>
+              I am a sophomore and the Safety Captain of team 1515, and this is
+              my second year in robotics. As Safety Captain, I create and
+              enforce protocols to ensure that the team is safe at all times.
+              Safety is an absolute necessity and priority, and I hope to share
+              my passion for FRC with anyone interested in educating themselves
+              on how to further protect their team. I am also committed to
+              encouraging more girls into joining FRC.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- <div id="programming">
+        <h1>PROGRAMMING TEAM</h1>
+        <ul class="bxslider">
+          <li>
+            <img src="Assets/Leaders/cameron.jpg" />
+            <h2>Cameron Asher</h2>
+            <h3>Head of Programming</h3>
+            <p>
+              This is my fourth year on the robotics team. I'm currently the
+              vice president, head of programming, and the head of web
+              development. I've loved programming for a while and being on an
+              FRC team with MorTorq has taught me so many practical and
+              real-world skills. I hope to keep on learning about programming,
+              engineering, and leading through MorTorq and FRC.
+            </p>
+          </li>
+          <li>
+            <img src="Assets/Leaders/cameron.jpg" />
+            <h2>Cameron Asher</h2>
+            <h3>Head of Programming</h3>
+            <p>
+              This is my fourth year on the robotics team. I'm currently the
+              vice president, head of programming, and the head of web
+              development. I've loved programming for a while and being on an
+              FRC team with MorTorq has taught me so many practical and
+              real-world skills. I hope to keep on learning about programming,
+              engineering, and leading through MorTorq and FRC.
+            </p>
+          </li>
+          <li>
+            <img src="Assets/Leaders/cameron.jpg" />
+            <h2>Cameron Asher</h2>
+            <h3>Head of Programming</h3>
+            <p>
+              This is my fourth year on the robotics team. I'm currently the
+              vice president, head of programming, and the head of web
+              development. I've loved programming for a while and being on an
+              FRC team with MorTorq has taught me so many practical and
+              real-world skills. I hope to keep on learning about programming,
+              engineering, and leading through MorTorq and FRC.
+            </p>
+          </li>
+        </ul>
+      </div> -->
+      <!-- <div id="buisness">
+        <h1>BUSINESS TEAM</h1>
+        <ul class="bxslider">
+          <li>
+            <img src="Assets/Leaders/odelia.JPG" />
+            <h2>Odelia Shofet</h2>
+            <h3>Vice President</h3>
+            <p>
+              This is my fourth year on the robotics team. I'm currently the
+              vice president, head of programming, and the head of web
+              development. I've loved programming for a while and being on an
+              FRC team with MorTorq has taught me so many practical and
+              real-world skills. I hope to keep on learning about programming,
+              engineering, and leading through MorTorq and FRC.
+            </p>
+          </li>
+        </ul>
+      </div> -->
     </div>
-</body>
+  </body>
 </html>

@@ -1,88 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=842">
-    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="container.css">
-    <link rel="stylesheet" href="popup.css">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=842" />
+    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="container.css" />
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="index.css" />
     <script src="nav.js" defer></script>
     <script src="viewfull.js" defer></script>
     <title>Team1515 Main Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="nav">
-        <div class="nav navbar" id="pcNav">
-            <img id="team_logo" src="Assets/team1515logoinverse.png"/>
-            <div class="tab">
-                <a style="color:white;" href="index.html">HOME</a>
-                <div class="dropdown">
-                    <a class="dropdownTitle">ABOUT&#8595;</a>
-                    <div class="dropdown-content">
-                        <a href="outreach.html">OUTREACH</a>
-                        <br>
-                        <a href="team.html">TEAM</a>
-                        <br>
-                        <a href="awards.html">AWARDS</a>
-                    </div>
-                </div>
-                <a href="sponsors.html">SPONSORS</a>
-                <a href="https://www.bhef.org/apps/form/bhhsrobotics">DONATE</a>
+      <div class="nav navbar" id="pcNav">
+        <img id="team_logo" src="Assets/team1515logoinverse.png" />
+        <div class="tab">
+          <a style="color: white" href="index.html">HOME</a>
+          <div class="dropdown">
+            <a class="dropdownTitle">ABOUT&#8595;</a>
+            <div class="dropdown-content">
+              <a href="outreach.html">OUTREACH</a>
+              <br />
+              <a href="team.html">TEAM</a>
+              <br />
+              <a href="awards.html">AWARDS</a>
             </div>
-            <div class="socials">
-                <a href="https://www.facebook.com/frc1515/" id="firstSocial">
-                    <img src="Assets/facebookLogo 1.png" alt="FB logo">
-                </a>
-                <a href="https://www.instagram.com/frc1515/?hl=en">
-                    <img src="Assets/instagramLogo 1.png" alt="FB logo">
-                </a>
-                <a href="https://twitter.com/frc1515?lang=en">
-                    <img src="Assets/twitterLogo 1.png" alt="FB logo">
-                </a>
-            </div>
+          </div>
+          <a href="sponsors.html">SPONSORS</a>
+          <a href="https://www.bhef.org/apps/form/bhhsrobotics">DONATE</a>
         </div>
-        <div class="nav navbar" id="mobileNav">
-            <img id="team_logo" src="Assets/team1515logoinverse.png"/>
-            <div class="container" onclick="togglePop(this)">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
+        <div class="socials">
+          <a href="https://www.facebook.com/frc1515/" id="firstSocial">
+            <img src="Assets/facebookLogo 1.png" alt="FB logo" />
+          </a>
+          <a href="https://www.instagram.com/frc1515/?hl=en">
+            <img src="Assets/instagramLogo 1.png" alt="FB logo" />
+          </a>
+          <a href="https://twitter.com/frc1515?lang=en">
+            <img src="Assets/twitterLogo 1.png" alt="FB logo" />
+          </a>
+        </div>
+      </div>
+      <div class="nav navbar" id="mobileNav">
+        <img id="team_logo" src="Assets/team1515logoinverse.png" />
+        <div class="container" onclick="togglePop(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div id="box">
+          <a href="index.html">HOME</a>
+          <div class="dropdown">
+            <a class="dropdownTitle">ABOUT&#8595;</a>
+            <div class="dropContent">
+              <a href="outreach.html">OUTREACH</a>
+              <br />
+              <a href="team.html">TEAM</a>
+              <br />
+              <a href="awards.html">AWARDS</a>
             </div>
-            <div id="box">
-              <a href="index.html">HOME</a>
-              <div class="dropdown">
-                  <a class="dropdownTitle">ABOUT&#8595;</a>
-                  <div class="dropContent">
-                      <a href="outreach.html">OUTREACH</a>
-                      <br>
-                      <a href="team.html">TEAM</a>
-                      <br>
-                      <a href="awards.html">AWARDS</a>
-                  </div>
-              </div>
-              <a href="sponsors.html">SPONSORS</a>
-              <a href="https://www.bhef.org/apps/form/bhhsrobotics">DONATE</a>
-              <div class="socials">
-                <a href="https://www.facebook.com/frc1515/">
-                    <img src="Assets/facebookLogo 1.png" alt="FB logo">
-                </a>
-                <a href="https://www.instagram.com/frc1515/?hl=en">
-                    <img src="Assets/instagramLogo 1.png" alt="FB logo">
-                </a>
-                <a href="https://twitter.com/frc1515?lang=en">
-                    <img src="Assets/twitterLogo 1.png" alt="FB logo">
-                </a>
-              </div>
+          </div>
+          <a href="sponsors.html">SPONSORS</a>
+          <a href="https://www.bhef.org/apps/form/bhhsrobotics">DONATE</a>
+          <div class="socials">
+            <a href="https://www.facebook.com/frc1515/">
+              <img src="Assets/facebookLogo 1.png" alt="FB logo" />
+            </a>
+            <a href="https://www.instagram.com/frc1515/?hl=en">
+              <img src="Assets/instagramLogo 1.png" alt="FB logo" />
+            </a>
+            <a href="https://twitter.com/frc1515?lang=en">
+              <img src="Assets/twitterLogo 1.png" alt="FB logo" />
+            </a>
           </div>
         </div>
+      </div>
     </div>
     <div id="content">
-        <img src="Assets/Copy of IMG_0713 - Sarah Lepkowitz 1.png" id="team">
-        <!-- <div id="aboutDiv">
+      <img src="Assets/allteams.jpeg" id="team" />
+      <!-- <div id="aboutDiv">
             <h1>About FIRST</h1>
             <hr>
             <div class="flex">
@@ -90,62 +96,108 @@
                 <p id="aboutP">For Inspiration and Recognition of Science Technology, otherwise known as FIRST, is a non-profit organization that was started in 1989 in Manchester, New Hampshire, by Dean Kamen. Kamen is an entrepreneur who is also widely known for his creation of the Segway, and is now the CEO of the FIRST nonprofit organization... <span style="color: blue;" onclick="togglePopup('about')">View Full</span></p>
             </div>
         </div> -->
-        <div class="missionStatement">
-            <h1>Mission Statement</h1>
-            <hr>
-            <p>We strive to inspire future generations to pursue careers in STEM and Entrepreneurship by encouraging inclusion, leadership, ingenuity and teamwork.</p>
+      <div class="missionStatement">
+        <h1>Mission Statement</h1>
+        <hr />
+        <p>
+          We strive to inspire future generations to pursue careers in STEM and
+          Entrepreneurship by encouraging inclusion, leadership, ingenuity and
+          teamwork.
+        </p>
+      </div>
+      <div class="frcDiv">
+        <h1>FRC - 2022 Rapid React</h1>
+        <hr />
+        <div class="flex">
+          <span id="frc2020P"
+            >In the 2022 season, our team participated in the LA and Ventura
+            regionals and won up to quarter finals in both tournaments.</span
+          >
         </div>
-        <div class="frcDiv">
-            <h1>FRC - 2021 Game Changers</h1>
-            <hr>
-            <div class="flex">
-                <span id="frc2020P">For the 2021 season, our team competed in the three at home challenges offered by FIRST: Infinite Recharge at Home, Game Design Challenge, and Innovation Challenge.</span>
-            </div>
+      </div>
+      <div class="frcDiv">
+        <h1>FRC - 2021 Game Changers</h1>
+        <hr />
+        <div class="flex">
+          <span id="frc2020P"
+            >For the 2021 season, our team competed in the three at home
+            challenges offered by FIRST: Infinite Recharge at Home, Game Design
+            Challenge, and Innovation Challenge.</span
+          >
         </div>
-        <div class="frcDiv">
-            <h1>FRC - 2021 Infinite Recharge at Home</h1>
-            <hr>
-            <div class="flex">
-                <span id="frc2020P">For Infinite Recharge at Home, we competed with our robot from the 2020 season (more on this robot in the 2020 season description below). Through images and videos, our team created a presentation to showcase the robot's mechanisms and detail our design process. </span>
-            </div>
+      </div>
+      <div class="frcDiv">
+        <h1>FRC - 2021 Infinite Recharge at Home</h1>
+        <hr />
+        <div class="flex">
+          <span id="frc2020P"
+            >For Infinite Recharge at Home, we competed with our robot from the
+            2020 season (more on this robot in the 2020 season description
+            below). Through images and videos, our team created a presentation
+            to showcase the robot's mechanisms and detail our design process.
+          </span>
         </div>
-        <div class="frcDiv">
-            <h1>FRC - 2021 Game Design Challenge</h1>
-            <hr>
-            <div class="flex">
-                <span id="frc2020P">In the Game Design Challenge, teams were tasked with creating their own FIRST Robotics Competition game, complete with all the logistical requirements (timing of matches, robot size, field dimensions, etc.) of a real FRC competition. Our team created FIRST Firefighter Frenzy, in which teams had to carry valuables into the rescue zone (using the chain element) and shoot water cells into burning homes to put out the flames. To challenge competitors with a climbing portion, teams could scale the side of a firetruck to score extra points.</span>
-            </div>
+      </div>
+      <div class="frcDiv">
+        <h1>FRC - 2021 Game Design Challenge</h1>
+        <hr />
+        <div class="flex">
+          <span id="frc2020P"
+            >In the Game Design Challenge, teams were tasked with creating their
+            own FIRST Robotics Competition game, complete with all the
+            logistical requirements (timing of matches, robot size, field
+            dimensions, etc.) of a real FRC competition. Our team created FIRST
+            Firefighter Frenzy, in which teams had to carry valuables into the
+            rescue zone (using the chain element) and shoot water cells into
+            burning homes to put out the flames. To challenge competitors with a
+            climbing portion, teams could scale the side of a firetruck to score
+            extra points.</span
+          >
         </div>
-        <div class="frcDiv">
-            <h1>FRC - 2021 Innovation Challenge</h1>
-            <hr>
-            <div class="flex">
-                <span id="frc2020P">As part of the Innovation Challenge, we needed to develop something to help people increase their fitness through movement. Our team designed MorStep, a midsole which uses the stepping motion to generate power through the reverse electrowetting (REWOD) process. The electricity produced would then be channeled to facilitate wireless charging of devices including phones and smartwatches. By supplying a reliable power source, this technology would allow users to perform their daily activities without needing to stop and recharge devices or carry an additional power bank.</span>
-            </div>
+      </div>
+      <div class="frcDiv">
+        <h1>FRC - 2021 Innovation Challenge</h1>
+        <hr />
+        <div class="flex">
+          <span id="frc2020P"
+            >As part of the Innovation Challenge, we needed to develop something
+            to help people increase their fitness through movement. Our team
+            designed MorStep, a midsole which uses the stepping motion to
+            generate power through the reverse electrowetting (REWOD) process.
+            The electricity produced would then be channeled to facilitate
+            wireless charging of devices including phones and smartwatches. By
+            supplying a reliable power source, this technology would allow users
+            to perform their daily activities without needing to stop and
+            recharge devices or carry an additional power bank.</span
+          >
         </div>
-        <div class="frcDiv">
-            <h1>FRC 2020 - Infinite Recharge</h1>
-            <hr>
-            <div class="flex">
-                <img style="margin-left: 0px; margin-right: 5px;" src="Assets/2020robot.png"alt="2020 robot" id="robot">
-                <span id="frc2020P">Our 2020 robot had a revolver type magazine, a feature that allowed us to carry five balls at a time. The robot could intake balls, place them into the magazine, and then used a solenoid to direct the ball into the two wheel shooter... <span style="color: blue;" onclick="togglePopup('inf')">View Full</span> </span>
-            </div>
-        </div>
-        <div id="teamHistory">
-            <h1>Team History</h1>
-            <hr>
-            <p>Our team competes in the FIRST robotics competition as Team 1515. Team 1515 was founded in the fall of 2004 under the leadership of Former Principal of Beverly Hills High School Dr. Dan Stepenosky, member of the School Board Dr. Myra Demeter, Beverly Hills High School Chemistry Teacher Charles Lee, and parent Eileen Kahn... <span style="color: blue;" onclick="togglePopup('team')">View Full</span></p>
-            <img src="Assets/teamPhoto.JPG" id="teamImg">
-        </div>
-        <button class="continue" onclick="window.location = 'outreach.html'">Continue</button>
+      </div>
+      <div id="teamHistory">
+        <h1>Team History</h1>
+        <hr />
+        <p>
+          Our team competes in the FIRST robotics competition as Team 1515. Team
+          1515 was founded in the fall of 2004 under the leadership of Former
+          Principal of Beverly Hills High School Dr. Dan Stepenosky, member of
+          the School Board Dr. Myra Demeter, Beverly Hills High School Chemistry
+          Teacher Charles Lee, and parent Eileen Kahn...
+          <span style="color: blue" onclick="togglePopup('team')"
+            >View Full</span
+          >
+        </p>
+        <img src="Assets/team_photo.JPG" id="teamImg" />
+      </div>
+      <button class="continue" onclick="window.location = 'outreach.html'">
+        Continue
+      </button>
     </div>
     <div class="popup" id="popup-1">
-        <div class="overlay" onclick="togglePopup()"></div>
-        <div class="content">
-          <div class="close-btn" onclick="togglePopup()">&times;</div>
-          <h1></h1>
-          <p></p>
-        </div>
+      <div class="overlay" onclick="togglePopup()"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1></h1>
+        <p></p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
